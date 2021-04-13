@@ -19,17 +19,20 @@ public class Main {
         //4 is very good
         //5 is excellent
 
-        int grade = 2;
+        int grade = 4;
 
         if (grade == 3){
-            System.out.println("Good");
+            System.out.print("Good ");
 
-        }else if (grade == 4){
-            System.out.println("Very Good");
-        }else if (grade == 5){
-            System.out.println("Excellent");
-        }else {
-            System.out.println("fail");
+        }
+        else if (grade == 4){
+            System.out.print("Very Good ");
+        }
+        else if (grade == 5){
+            System.out.print("Excellent ");
+        }
+        if (grade!=1){
+            System.out.println("Student pass");
         }
 
     }
